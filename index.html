@@ -1,0 +1,57 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div ><h1 class="header">Calculator</h1></div>
+    <input class=" p-3  input " type="text" id="display">
+    <div class=" container  w-50  " >
+        <div class=" row m-4" >
+            <div class=" col-4-md mt-4" >
+    <button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee('+')">+ </button>
+    <button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee('-')"> -</button>
+    <button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee('*')"> *</button>
+    <button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee('/')"> /</button>
+</div>
+</div>
+
+<div class=" row m-4 " >
+    <div class=" col-4-md " >
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light" onclick="valuee(0)" >0</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(1)"> 1</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(2)"> 2</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(3)"> 3 </button>
+ 
+
+</div>
+</div>
+<div class=" row m-4" >
+<div class=" col-4-md " >
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(4)"> 4</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(5)"> 5</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(6)"> 6</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(7)"> 7</button>
+</div>
+</div>
+<div class=" row m-4 " >
+<div class=" col-4-md mb-4" >
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(8)"> 8</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light"onclick="valuee(9)"> 9</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light" onclick="calc()" >=</button>
+<button class="btn bg-primary p-4 m-1 rounded-pill text-light" onclick="clearResult('')" >C</button>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.
+0-alpha3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4
+jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+</script>
+<script src="app.js"></script>
+</html>
